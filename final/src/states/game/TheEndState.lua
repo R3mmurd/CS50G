@@ -10,7 +10,9 @@ TheEndState = Class{__includes = BaseState}
 
 function TheEndState:update(dt)
     if love.keyboard.wasPressed('return') or love.keyboard.wasPressed('enter') then
-        gSounds['the-end']:stop()
+        for k, s in pairs(gSounds) do
+            s:stop()
+        end
         gStateStack:clear()
         gStateStack:push(StartState())
     end

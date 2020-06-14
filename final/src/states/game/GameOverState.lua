@@ -10,7 +10,9 @@ GameOverState = Class{__includes = BaseState}
 
 function GameOverState:update(dt)
     if love.keyboard.wasPressed('return') or love.keyboard.wasPressed('enter') then
-        gSounds['game-over']:stop()
+        for k, s in pairs(gSounds) do
+            s:stop()
+        end
         gStateStack:clear()
         gStateStack:push(StartState())
     end
