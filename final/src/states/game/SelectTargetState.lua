@@ -26,11 +26,7 @@ function SelectTargetState:findNextAlive()
     local i = self.currentSelection < #self.targets and self.currentSelection + 1 or 1
 
     while self.targets[i].dead do
-        if i > #self.targets then
-            i = 1
-        else
-            i = i + 1
-        end
+        i = i == #self.targets and 1 or i + 1
     end
 
     self.currentSelection = i
@@ -40,11 +36,7 @@ function SelectTargetState:findPrevAlive()
     local i = self.currentSelection > 1 and self.currentSelection - 1 or #self.targets
 
     while self.targets[i].dead do
-        if i < 1 then
-            i = #self.targets
-        else
-            i = i - 1
-        end
+        i = i == 1 and #self.targets or i - 1
     end
 
     self.currentSelection = i
