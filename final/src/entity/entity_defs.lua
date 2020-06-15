@@ -246,7 +246,7 @@ ENTITY_DEFS = {
             'Good luck in your journey!',
             'You, little guys! Go to defeat the west monster and break the curse!',
             'All of you are so nice!',
-            'Thank you for taking such a risk! I love all of you.'
+            'Thank you for taking such a risk! I love you all!'
         }
     },
     enemies = {
