@@ -40,7 +40,7 @@ end
 
 function BattleEntity:heal(amount)
     if not self.dead then
-        self.currentHP = math.min(self.baseHP, self.currentHP + amount)
+        self.currentHP = math.min(self.HP, self.currentHP + amount)
     end
 end
 
