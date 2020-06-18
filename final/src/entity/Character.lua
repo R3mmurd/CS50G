@@ -16,7 +16,7 @@ function Character:init(def)
     self.defenseIV = def.defenseIV
     self.magicIV = def.magicIV
     self.currentExp = 0
-    self.expToLevel = math.max(10, self.level * self.level * 5 * 0.75)
+    self:nextExpToLevel()
 end
 
 function Character:calculateStats()
@@ -67,7 +67,10 @@ end
 
 function Character:levelUp()
     self.level = self.level + 1
-    self.expToLevel = self.level * self.level * 5 * 0.75
-
+    self:nextExpToLevel()
     return self:statsLevelUp()
+end
+
+function Character:nextExpToLevel()
+    self.expToLevel = self.level * self.level * 10 * 1.5
 end
