@@ -249,7 +249,9 @@ function BattleState:triggerStartingDialogue()
     function()
         names = ''
         for k, c in pairs(self.party.characters) do
-            names = names .. c.name .. ', '
+            if not c.dead then
+                names = names .. c.name .. ', '
+            end
         end
 
         local prefix = self.finalBoss and 'The final boss is here, this is your opportunity to save the world! ' or ''
