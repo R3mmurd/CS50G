@@ -192,9 +192,15 @@ function TakeTurnState:incExp(i, opponentLevel)
 
                     -- set our exp to whatever the overlap is
                     c.currentExp = c.currentExp - c.expToLevel
+                    local lastLevel = c.level
                     local HPIncrease, attackIncrease, defenseIncrease, magicIncrease = c:levelUp()
 
-                    gStateStack:push(BattleMessageState(self.battleState, 'Congratulations! Level Up!',
+                    Timer.tween(0.5, {
+                        [self.battleState.energyBars[c.name]] = {value = c.currentHP - HPIncrease}
+                    })
+
+                    gStateStack:push(BattleMessageState(self.battleState, 'Congratulations! ' .. c.name ..
+                                                        ' advanced from level ' .. lastLevel .. ' level ' .. c.level .. '!',
                     function()
                         gStateStack:push(StatsMenuState(c,
                             {

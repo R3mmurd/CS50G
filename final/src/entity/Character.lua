@@ -35,6 +35,8 @@ function Character:statsLevelUp()
         end
     end
 
+    self.currentHP = self.HP
+
     local attackIncrease = 0
 
     for j = 1, 3 do
@@ -72,5 +74,5 @@ function Character:levelUp()
 end
 
 function Character:nextExpToLevel()
-    self.expToLevel = self.level * self.level * 10 * 1.5
+    self.expToLevel = self.level * self.level * 10 * 1.1
 end

@@ -24,9 +24,9 @@ function StatsMenuState:init(character, stats, onClose)
     
     self.statsMenu = Menu {
         x = 0,
-        y = VIRTUAL_HEIGHT - 80,
+        y = VIRTUAL_HEIGHT - 64,
         width = VIRTUAL_WIDTH,
-        height = 80,
+        height = 64,
         showCursor = false,
         font = gFonts['small'],
         items = {

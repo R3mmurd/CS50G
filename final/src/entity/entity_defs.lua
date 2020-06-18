@@ -12,34 +12,34 @@ ENTITY_HEIGHT = 18
 NUM_CHARACTERS = 4
 
 BATTLE_WIDTH = 16
-BATTLE_HEIGHT = TILE_HEIGHT - 64/TILE_SIZE - 3
+BATTLE_HEIGHT = TILE_HEIGHT - 64/TILE_SIZE - 2
 BATTLE_PADDLE = {
     x = 4, y = 1
 }
 
 PARTY_BATTLE_POSITIONS = {
-    [1] = {x = BATTLE_PADDLE.x + 5, y = BATTLE_PADDLE.y + 3},
-    [2] = {x = BATTLE_PADDLE.x + 5, y = BATTLE_PADDLE.y + BATTLE_HEIGHT - 2},
+    [1] = {x = BATTLE_PADDLE.x + 6, y = BATTLE_PADDLE.y + 3},
+    [2] = {x = BATTLE_PADDLE.x + 6, y = BATTLE_PADDLE.y + BATTLE_HEIGHT - 1},
     [3] = {x = BATTLE_PADDLE.x + 3, y = BATTLE_PADDLE.y + 3},
-    [4] = {x = BATTLE_PADDLE.x + 3, y = BATTLE_PADDLE.y + BATTLE_HEIGHT - 2}
+    [4] = {x = BATTLE_PADDLE.x + 3, y = BATTLE_PADDLE.y + BATTLE_HEIGHT - 1}
 }
 
 ENEMIES_POSITIONS = {
     [3] = {
-        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 6, y = BATTLE_PADDLE.y + 4},
-        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 3, y = BATTLE_PADDLE.y + 2},
+        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 6, y = BATTLE_PADDLE.y + 5},
+        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 3, y = BATTLE_PADDLE.y + 3},
         {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 3, y = BATTLE_PADDLE.y + BATTLE_HEIGHT - 1}
     },
     [4] = {
-        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 6, y = BATTLE_PADDLE.y + 2},
-        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 2, y = BATTLE_PADDLE.y + 2},
+        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 6, y = BATTLE_PADDLE.y + 3},
+        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 2, y = BATTLE_PADDLE.y + 3},
         {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 6, y = BATTLE_PADDLE.y + BATTLE_HEIGHT - 1},
         {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 2, y = BATTLE_PADDLE.y + BATTLE_HEIGHT - 1}
     },
     [5] = {
-        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 6, y = BATTLE_PADDLE.y + 2},
-        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 2, y = BATTLE_PADDLE.y + 2},
-        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 4, y = BATTLE_PADDLE.y + 4},
+        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 6, y = BATTLE_PADDLE.y + 3},
+        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 2, y = BATTLE_PADDLE.y + 3},
+        {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 4, y = BATTLE_PADDLE.y + 5},
         {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 6, y = BATTLE_PADDLE.y + BATTLE_HEIGHT - 1},
         {x = BATTLE_PADDLE.x + BATTLE_WIDTH - 2, y = BATTLE_PADDLE.y + BATTLE_HEIGHT - 1}
     }
@@ -162,7 +162,7 @@ ENTITY_DEFS = {
                 {
                     name = 'Heal',
                     target_type = 'character',
-                    strength = 2,
+                    strength = 5,
                     require_target = true,
                     sound_effect = 'powerup',
                     func = function(entity, target, strength)
@@ -175,7 +175,7 @@ ENTITY_DEFS = {
                     name = 'Global Heal',
                     target_type = 'character',
                     require_target = false,
-                    strength = 10,
+                    strength = 8,
                     sound_effect = 'powerup',
                     func = function(entity, targets, strength)
                         local amount = math.floor(entity:computeHealing()*strength)

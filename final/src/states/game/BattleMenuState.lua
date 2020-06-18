@@ -16,9 +16,9 @@ function BattleMenuState:init(battleState)
     
     self.battleMenu = Menu {
         x = VIRTUAL_WIDTH - 64,
-        y = VIRTUAL_HEIGHT - 80,
+        y = VIRTUAL_HEIGHT - 64,
         width = 64,
-        height = 80,
+        height = 64,
         items = {
             {
                 text = 'Fight',
