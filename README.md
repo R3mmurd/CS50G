@@ -10,6 +10,12 @@ we had to develop a complete game as a final project based on minimum requiremen
 
 The following list of subdirectories contains each of the assignments:
 
-**assignment0**: Contains the implementation of Pong game. The assignment was
+- **assignment0**: Contains the implementation of Pong. The assignment was
 to implement a basic AI for either Player 1 or 2 (or both!). See details
 [here](assignment0/README.md).
+
+- **assignment1**: Contains the implementation of a remake of Flappy Bird. The assignment was:
+Influence the generation of pipes so as to bring about more complicated level generation,
+give the player a medal for their performance, along with their score, and
+implement a pause feature, just in case life gets in the way of jumping through pipes!.
+See details [here](assignment1/README.md).
