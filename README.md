@@ -10,7 +10,7 @@ we had to develop a complete game as a final project based on minimum requiremen
 
 The following list of subdirectories contains each of the assignments:
 
-- **assignment0**: Contains the implementation of Pong. The assignment was
+- **assignment0**: Contains the implementation of a remake of Pong. The assignment was
 to implement a basic AI for either Player 1 or 2 (or both!). See details
 [here](assignment0/README.md).
 
@@ -19,3 +19,10 @@ Influence the generation of pipes so as to bring about more complicated level ge
 give the player a medal for their performance, along with their score, and
 implement a pause feature, just in case life gets in the way of jumping through pipes!.
 See details [here](assignment1/README.md).
+
+- **assignment2**: Contains the implementation of a remake of Breakout. The assignment was:
+Add a powerup to the game that spawns two extra balls,
+grow and shrink the Paddle when the player gains enough points or loses a life, and
+add a locked Brick that will only open when the player collects a second new powerup, a key,
+which should only spawn when such a Brick exists and randomly as per the Ball powerup.
+See details [here](assignment2/README.md).
