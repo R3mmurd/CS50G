@@ -1,4 +1,4 @@
-# Assignment 1: “Flappy Bird, The Reward Update”
+# “Flappy Bird, The Reward Update”
 
 ## The goal
 

@@ -1,4 +1,4 @@
-# Assignment 4: “Super Mario Bros., The Key and Lock Update”
+# “Super Mario Bros., The Key and Lock Update”
 
 ## The goal
 

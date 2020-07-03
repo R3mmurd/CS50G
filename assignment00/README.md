@@ -1,4 +1,4 @@
-# Assignment 0: “Pong, The AI Update”
+# “Pong, The AI Update”
 
 ## The goal
 

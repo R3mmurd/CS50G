@@ -1,4 +1,4 @@
-# Assignment 3: “Match-3, The Shiny Update”
+# “Match-3, The Shiny Update”
 
 ## The goal
 

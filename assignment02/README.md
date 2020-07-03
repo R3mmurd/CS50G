@@ -1,4 +1,4 @@
-# Assignment 2: “Breakout, The Powerup Update”
+# “Breakout, The Powerup Update”
 
 ## The goal
 
