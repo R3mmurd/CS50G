@@ -51,3 +51,5 @@ have to start again from the beginning.
 - Other of the images and sounds were downloaded from https://opengameart.org/.
 
 - The Final Fantasy font was downloaded from https://www.dafont.com/final-fantasy.font.
+
+- Author: Alejandro Mujica - aledrums@gmail.com
