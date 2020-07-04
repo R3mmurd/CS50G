@@ -11,3 +11,9 @@
 
 - When the player touches this goal post, we should regenerate the level, spawn the player at the beginning of it again,
   and make it a little longer than it was before.
+
+## Demo
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=gpzVrHwsTpM
+" target="_blank"><img src="http://img.youtube.com/vi/gpzVrHwsTpM/0.jpg"
+alt="Demo Super Mario Bros" width="240" height="180" border="10" /></a>

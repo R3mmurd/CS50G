@@ -10,3 +10,9 @@
 - When carrying a pot, the player should be able to throw the pot. When thrown, the pot will travel in a straight line based on where
   the player is looking. When it collides with a wall, travels more than four tiles, or collides with an enemy, it should disappear.
   When it collides with an enemy, it should do 1 point of damage to that enemy as well.
+
+## Demo
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=1389a553taM
+" target="_blank"><img src="http://img.youtube.com/vi/1389a553taM/0.jpg"
+alt="Demo Legend of Zelda" width="240" height="180" border="10" /></a>

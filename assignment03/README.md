@@ -12,3 +12,9 @@
 - Only allow swapping when it results in a match. If there are no matches available to perform, reset the board.
 
 - (Optional) Implement matching using the mouse.
+
+## Demo
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=M-LOKehOhbA
+" target="_blank"><img src="http://img.youtube.com/vi/M-LOKehOhbA/0.jpg"
+alt="Demo Match-3" width="240" height="180" border="10" /></a>

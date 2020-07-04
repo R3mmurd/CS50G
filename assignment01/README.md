@@ -18,3 +18,9 @@
   At the same time this sound effect plays, the music should pause, and once the user presses P again,
   the gameplay and the music should resume just as they were! To cap it off, display a pause icon in
   the middle of the screen, nice and large, so as to make it clear the game is paused.
+
+## Demo
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=LGYuc6DjfzI
+" target="_blank"><img src="http://img.youtube.com/vi/LGYuc6DjfzI/0.jpg"
+alt="Demo Flappy Bird" width="240" height="180" border="10" /></a>

@@ -20,3 +20,9 @@
   where the Paddle has the chance to collide with it and pick it up. Not every level needs to have locked
   Bricks; just include them occasionally! Perhaps make them worth a lot more points as well in order to
   compel their design.
+
+## Demo
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=-vvZcQcqnBs
+" target="_blank"><img src="http://img.youtube.com/vi/-vvZcQcqnBs/0.jpg"
+alt="Demo Breakout" width="240" height="180" border="10" /></a>

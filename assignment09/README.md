@@ -11,4 +11,9 @@
 
 - Add a Text label to the Play scene that keeps track of which maze they’re in, incrementing each time they
   progress to the next maze. This can be implemented as a static variable, but it should be reset to 0 if they get a Game Over.
-  
+
+## Demo
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=kHQnL7iI2ZU
+" target="_blank"><img src="http://img.youtube.com/vi/kHQnL7iI2ZU/0.jpg"
+alt="Demo Dreadhalls" width="240" height="180" border="10" /></a>
