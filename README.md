@@ -1,4 +1,4 @@
-# [HarvardX: CS50G](https://courses.edx.org/courses/course-v1:HarvardX+CS50G+Games/course/)
+# [HarvardX: CS50G](https://www.edx.org/course/cs50s-introduction-to-game-development)
 
 This repository contains my solutions to the projects of this course.
 You should not use these codes for your own solutions in case you are doing
