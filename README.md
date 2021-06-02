@@ -8,6 +8,13 @@ In this course, the instructor made eleven game projects. Each of them was studi
 in a two-hours-class. Then, we had to do an assignment over each game. In the end,
 we had to develop a complete game as a final project based on minimum requirements.
 
+## Requirements
+
+The codes from assignment00 to assigment07 and final were developed by using
+the library Love2D version 0.10.2 available
+[here](https://github.com/love2d/love/releases). The codes from assignment08 to
+assignment10 were developed with [Unity](https://unity.com/).
+
 The following list of subdirectories contains each of the assignments:
 
 - **assignment00**: Contains the implementation of a remake of Pong. See details
